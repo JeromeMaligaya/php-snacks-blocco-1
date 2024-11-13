@@ -1,6 +1,6 @@
 <?php
 
-function snack2(string $str): string
+function spinWords(string $str): string
 {
     $strWords = explode(" ", $str);
     $newStrWords = [];
